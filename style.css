@@ -15,7 +15,7 @@ body, html{
     margin: 0;
 }
 .main-home{
-    background-image: url(/images/Ellipse\ landing\ page.svg);
+    background-image: url(/images/Ellipse_landing_page.svg);
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -24,7 +24,7 @@ body, html{
 }
 
 .main-about{
-    background-image: url(/images/Ellipse\ about\ page.svg);
+    background-image: url(/images/Ellipse_about_page.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
