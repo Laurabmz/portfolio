@@ -15,7 +15,7 @@ body, html{
     margin: 0;
 }
 .main-home{
-    background-image: url(/images/Ellipse_landing_page.svg);
+    background-image: url(./images/Ellipse_landing_page.svg);
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -24,7 +24,7 @@ body, html{
 }
 
 .main-about{
-    background-image: url(/images/Ellipse_about_page.svg);
+    background-image: url(./images/Ellipse_about_page.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -58,6 +58,7 @@ h3{
     font-family: Neutral face;
     font-weight: lighter;
     font-size: 26px;
+  
 }
 
 span{
