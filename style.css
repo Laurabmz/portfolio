@@ -8,6 +8,11 @@
     src: url("./fonts/KenokyLight.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "true helvetica";
+    src: url("./fonts/HelveticaLTStd-Blk.otf") format("opentype");
+}
+
 *{
     box-sizing: border-box;
 }
@@ -131,6 +136,9 @@ span{
     justify-content: center;
     align-items: center;
     flex-direction: row;
+}
+
+.padding-top-25 {
     padding-top: 25px;
 }
 
@@ -156,43 +164,54 @@ a.arrow:hover{
 }
 
 .hello-about{
-    font-family: Neutral face;
-    font-size: 64px;
+    font-family: "true helvetica";
+    font-size: 45px;
     font-weight: bolder;
     
 }
 
 p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
+    font-size: 20px;
     text-align: left;
     width: 665px;
-    height: 310px;
+    height: 290px;
+    margin: 0;
+    line-height: 1.7;
+    margin: 10px 0 0 0;
 
 }
 
 #title-about{
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-top: 228px;
-    margin-bottom: 147;
-    margin-right: 500px;
+    margin-left: 0;
+    margin-top: 130px;
+    margin-bottom: 130;
+    margin-right: 0;
     
 }
 
 .laura{
  
-    font-family: Neutral face;
-    font-size: 64px;
-    font-weight: bolder;
-    color: white;
-    text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
-     
+    font-family: "true helvetica";
+    font-size: 45px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 
     
+}
+
+#profile-image{
+    
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+.me{
+    background-size: contain;
+    background-position: center;
 }
