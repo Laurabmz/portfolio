@@ -38,6 +38,8 @@ body, html{
     animation-duration: 2s;
 }
 
+
+
 @keyframes fadein {
     0% {opacity: 0;}
     100% {opacity: 1;}
@@ -106,7 +108,7 @@ span{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    position: fixed;
     left: 5%;
     top: 52px;
 }
@@ -158,7 +160,7 @@ a.arrow:hover{
     height: auto;
     display: flex;
     justify-content: flex-start;
-    position: absolute;
+    position: fixed;
     left: 5%;
     bottom: 32px;
 }
@@ -214,4 +216,56 @@ p{
 .me{
     background-size: contain;
     background-position: center;
+}
+
+.main-work{
+    background-image: url(./images/Ellipse_about_page.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+#title-work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: brown;
+    margin-top: 200px;
+    margin-left: 0;
+    width: 100%;
+} 
+
+.check-out{
+    font-family: "true helvetica";
+    font-size: 45px;
+    font-weight: bolder;
+    width: 100%;
+    padding: 0 0 0 70px;
+    
+}
+
+.my-work{
+ 
+    font-family: "true helvetica";
+    font-size: 45px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+    
+}
+
+a.button-home{
+
+    text-decoration: none;
+    color: black;
+}
+
+#gallery{
+    background-color: chartreuse;
+    width: 100%;
+    height: 600px;
 }
