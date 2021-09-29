@@ -232,8 +232,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: brown;
-    margin-top: 200px;
+    margin-top: 70px;
     margin-left: 0;
     width: 100%;
 } 
@@ -242,8 +241,8 @@ p{
     font-family: "true helvetica";
     font-size: 45px;
     font-weight: bolder;
-    width: 100%;
-    padding: 0 0 0 70px;
+    width: 90%;
+    margin-bottom: 10px;
     
 }
 
@@ -265,7 +264,31 @@ a.button-home{
 }
 
 #gallery{
-    background-color: chartreuse;
     width: 100%;
-    height: 600px;
+    height: 400px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    column-gap: 50px;
+    padding: 50px 100px 0 100px;
+}
+
+.project-container{
+    height: 300px;
+    background-color: white;
+    border: rgb(102, 102, 102) solid 1px;
+    width: 300px;
+    position: relative;
+}
+
+h4{
+    font-family: Neutral face;
+    font-size: 25px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    bottom: -15px;
 }
