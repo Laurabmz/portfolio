@@ -292,3 +292,7 @@ h4{
     margin: 0;
     bottom: -15px;
 }
+
+.thumbnail{
+    size: contain;
+}
