@@ -27,6 +27,8 @@ html {
 
   animation-name: fadein;
   animation-duration: 1.5s;
+
+  height: 100vh;
 }
 
 .main-about {
@@ -37,6 +39,8 @@ html {
 
   animation-name: fadein;
   animation-duration: 2s;
+
+  height: 100vh;
 }
 
 @keyframes fadein {
@@ -122,7 +126,6 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 #title {
@@ -220,6 +223,7 @@ p {
 
   animation-name: fadein;
   animation-duration: 2s;
+  height: 100vh;
 }
 #title-work {
   display: flex;
@@ -306,12 +310,23 @@ h4 {
     margin: 0px 21px;
   }
 
-  /* ### HOME ### */
-  .main-home {
+  .main-home,
+  .main-about,
+  .main-work {
     background-size: cover;
   }
 
+  /* ### HOME ### */
+
   /* ### ABOUT ### */
+  #title-about p {
+    width: 95%;
+    height: auto;
+  }
+
+  .arrow-button {
+    margin: 10px 0;
+  }
 
   /* ### WORK ### */
   .main-work {
@@ -338,6 +353,7 @@ h4 {
 
   #header {
     flex-direction: column;
+    position: initial;
   }
   #menu {
     flex-direction: column;
@@ -352,6 +368,24 @@ h4 {
   /* ### HOME ### */
 
   /* ### ABOUT ### */
+  .main-about {
+    background-image: none;
+    flex-direction: column;
+    height: auto;
+  }
+
+  #title-about {
+    align-items: center;
+  }
+  #title-about .hello-about,
+  #title-about .hello-about .laura {
+    font-size: 36px;
+  }
+  #title-about p,
+  #title-about .hello-about {
+    width: 95%;
+    text-align: left;
+  }
 
   /* ### WORK ### */
 }
@@ -371,6 +405,12 @@ h4 {
   /* ### HOME ### */
 
   /* ### ABOUT ### */
+  #profile-image,
+  .me {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
 
   /* ### WORK ### */
   .main-work {
