@@ -123,6 +123,10 @@ span {
   top: 52px;
 }
 
+.fixed-position {
+  position: fixed !important;
+}
+
 #menu {
   display: flex;
 }
@@ -393,6 +397,22 @@ h4 {
   }
 
   /* ### WORK ### */
+  .main-work {
+    background-image: none;
+    flex-direction: column;
+    height: auto;
+  }
+
+  #gallery {
+    height: auto;
+    overflow-y: initial;
+    padding: 50px 0 0 0;
+  }
+
+  .check-out,
+  .my-work {
+    font-size: 35px;
+  }
 }
 
 /* ### MOBILE ### */
@@ -420,5 +440,10 @@ h4 {
   /* ### WORK ### */
   .main-work {
     background-image: none;
+  }
+
+  .check-out,
+  .my-work {
+    font-size: 24px;
   }
 }
