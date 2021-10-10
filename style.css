@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: Neutral face bold;
+    src: url("./fonts/neutralface-bold-_1_.ttf") format("truetype"); 
+}
+
+@font-face {
     font-family: kenoky;
     src: url("./fonts/KenokyLight.ttf") format("truetype");
 }
@@ -54,8 +59,7 @@ h1{
 }
 
 h2{
-   font-family: Neutral face;
-   font-weight: bolder;
+   font-family: Neutral face bold;
    font-size: 18px;
    text-align: center;
 }
@@ -69,7 +73,10 @@ h3{
 }
 
 span{
+    
+    font-family: Neutral face;
     font-weight: lighter;
+
 }
 .button-menu{
     font-family: Arial, Helvetica, sans-serif;
@@ -285,7 +292,8 @@ a.button-home{
 }
 
 h4{
-    font-family: Neutral face;
+    font-family: Neutral face bold;
+    font-weight: ;
     font-size: 25px;
     position: absolute;
     padding: 0;
