@@ -2,81 +2,100 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laura website</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laura website</title>
 </head>
 
 <body>
-    <div id="header">
-        <a class="button-home" href="index.html">
-            <h2>portfolio <span>2021</span></h2>
-        </a>
-        <ul id="menu">
-            <li class="button-menu"><a class="button-link" href="index.html">home</a></li>
-            <li class="button-menu"><a class="button-link" href="about.html">about</a></li>
-            <li class="button-menu"><a class="selected button-link" href="#">work</a></li>
-            <li class="button-menu"><a class="button-link" target="_blank"
-                    href="https://www.linkedin.com/in/laurabeamuzmingote/?locale=en_US">contact</a></li>
-        </ul>
+  <!-- MOBILE NAVIGATION -->
+  <div class="burger-menu-container">
+    <div class="nav-menu-btn" onclick="toggleFunc(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
     </div>
-    <div id="main" class="main-work">
-        <div id="title-work">
-            <h1 class="check-out">CHECK OUT <span class="my-work">MY WORK</span></h1>
-            <div id="gallery">
-                <div class="project-container">
-                    <h4>INTERACTIVE INFOGRAPHIC - UX</h4>
-                    <a target="_blank"
-                        href="https://www.behance.net/gallery/131273007/Interactive-Presentation-Infographic-UX-Design"><img
-                            src="./images/COPIA.png" alt="#" width="100%" height="100%"></a>
-                </div>
-                <div class="project-container">
-                    <h4>NATURÅ - BRANDING</h4>
-                    <a target="_blank" href="https://www.behance.net/gallery/129026007/NATURA?/"><img
-                            src="./images/square thumbnail.png" alt="#" width="100%" height="100%"></a>
-                </div>
-                <div class="project-container">
-                    <a target="_blank" href="https://www.behance.net/gallery/118241421/Huggie-Branding"><img
-                            class="thumbnail" src="./images/huggie tn.png" alt="#" width="100%" height="100%"></a>
-                    <h4>HUGGIE - BRANDING</h4>
-                </div>
-                <div class="project-container">
-                    <h4>SOMNI - EDITORIAL</h4>
-                    <a target="_blank" href="https://www.behance.net/gallery/75537171/SOMNI-Triptych-Editorial"><img
-                            src="./images/somni tn sq.png" alt="#" width="auto" height="100%"></a>
-                </div>
-                <div class="project-container">
-                    <h4>SAIKO - EDITORIAL</h4>
-                    <a target="_blank" href="https://www.behance.net/gallery/74461415/SAIKO-Magazine-Editorial"><img
-                            src="./images/saiko tn.png" alt="#" width="100%" height="100%"></a>
-                </div>
-                <div class="project-container">
-                    <h4>WWF - VIDEO</h4>
-                    <a target="_blank" href="https://www.behance.net/gallery/118199209/WWF-Spot-Advertising"><img
-                            src="./images/wwf tn.png" alt="#" width="100%" height="100%"></a>
-                </div>
-                <div class="project-container">
-                    <h4>SPOTIFY - PACKAGING</h4>
-                    <a target="_blank"
-                        href="https://www.behance.net/gallery/98096185/Spotify-Unboxing-Experience-Packaging"><img
-                            src="./images/packaging tn.png" alt="#" width="100%" height="100%"></a>
-                </div>
-            </div>
-            <div class="arrow-button padding-top-25">
-                <h3>DOWNLOAD CV</h3>
-                <a class="arrow" target="_blank" href="./assets/CV Laura Beamuz_09_21.pdf">
-                    <img src="./images/arrow_button_landing_page.svg" alt="arrow"
-                        style="vertical-align:middle;margin:0px 21px">
-                </a>
-            </div>
-        </div>
-    </div>
+  </div>
 
-    <div id="footer">
-        <h2>by <span>Laura Beamuz</span></h2>
+  <div id="header" class="fixed-position header-position">
+    <a class="button-home" href="index.html">
+      <h2>portfolio <span>2021</span></h2>
+    </a>
+    <!-- DESKTOP NAVIGATION -->
+    <ul id="menu">
+      <li class="button-menu">
+        <a class="button-link" href="index.html">home</a>
+      </li>
+      <li class="button-menu">
+        <a class="button-link" href="about.html">about</a>
+      </li>
+      <li class="button-menu">
+        <a class="selected button-link" href="#">work</a>
+      </li>
+      <li class="button-menu">
+        <a class="button-link" target="_blank"
+          href="https://www.linkedin.com/in/laurabeamuzmingote/?locale=en_US">contact</a>
+      </li>
+    </ul>
+  </div>
+  <div id="main" class="main-work">
+    <div id="title-work">
+      <h1 class="check-out">CHECK OUT <span class="my-work">MY WORK</span></h1>
+      <div id="gallery">
+        <div class="project-container">
+          <h4>INTERACTIVE INFOGRAPHIC - UX</h4>
+          <a target="_blank"
+            href="https://www.behance.net/gallery/131273007/Interactive-Presentation-Infographic-UX-Design"><img
+              src="./images/COPIA.png" alt="#" width="100%" height="100%"></a>
+        </div>
+        <div class="project-container">
+          <h4>NATURÅ - BRANDING</h4>
+          <a target="_blank" href="https://www.behance.net/gallery/129026007/NATURA?/"><img
+              src="./images/square thumbnail.png" alt="#" width="100%" height="100%"></a>
+        </div>
+        <div class="project-container">
+          <a target="_blank" href="https://www.behance.net/gallery/118241421/Huggie-Branding"><img class="thumbnail"
+              src="./images/huggie tn.png" alt="#" width="100%" height="100%"></a>
+          <h4>HUGGIE - BRANDING</h4>
+        </div>
+        <div class="project-container">
+          <h4>SOMNI - EDITORIAL</h4>
+          <a target="_blank" href="https://www.behance.net/gallery/75537171/SOMNI-Triptych-Editorial"><img
+              src="./images/somni tn sq.png" alt="#" width="auto" height="100%"></a>
+        </div>
+        <div class="project-container">
+          <h4>SAIKO - EDITORIAL</h4>
+          <a target="_blank" href="https://www.behance.net/gallery/74461415/SAIKO-Magazine-Editorial"><img
+              src="./images/saiko tn.png" alt="#" width="100%" height="100%"></a>
+        </div>
+        <div class="project-container">
+          <h4>WWF - VIDEO</h4>
+          <a target="_blank" href="https://www.behance.net/gallery/118199209/WWF-Spot-Advertising"><img
+              src="./images/wwf tn.png" alt="#" width="100%" height="100%"></a>
+        </div>
+        <div class="project-container">
+          <h4>SPOTIFY - PACKAGING</h4>
+          <a target="_blank" href="https://www.behance.net/gallery/98096185/Spotify-Unboxing-Experience-Packaging"><img
+              src="./images/packaging tn.png" alt="#" width="100%" height="100%"></a>
+        </div>
+      </div>
+      <div class="arrow-button padding-top-25">
+        <h3>DOWNLOAD CV</h3>
+        <a class="arrow" target="_blank" href="./assets/CV Laura Beamuz_09_21.pdf">
+          <img src="./images/arrow_button_landing_page.svg" alt="arrow" style="vertical-align:middle;margin:0px 21px">
+        </a>
+      </div>
     </div>
+  </div>
+  </div>
+
+  <div id="footer">
+    <h2>by <span>Laura Beamuz</span></h2>
+  </div>
+
+  <script src="./js/index.js"></script>
 </body>
 
 </html>

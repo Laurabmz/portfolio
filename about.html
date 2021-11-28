@@ -10,10 +10,20 @@
 </head>
 
 <body>
-    <div id="header">
+    <!-- MOBILE NAVIGATION -->
+    <div class="burger-menu-container">
+        <div class="nav-menu-btn" onclick="toggleFunc(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+
+    <div id="header" class="fixed-position header-position">
         <a class="button-home" href="index.html">
             <h2>portfolio <span>2021</span></h2>
         </a>
+        <!-- DESKTOP NAVIGATION -->
         <ul id="menu">
             <li class="button-menu"><a class="button-link" href="index.html">home</a></li>
             <li class="button-menu"><a class="selected button-link" href="#">about</a></li>
@@ -47,6 +57,8 @@
     <div id="footer">
         <h2>by <span>Laura Beamuz</span></h2>
     </div>
+
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
