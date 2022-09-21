@@ -21,10 +21,12 @@
 * {
   box-sizing: border-box;
 }
+
 body,
 html {
   margin: 0;
 }
+
 .main-home {
   background-image: url(./images/Ellipse_landing_page.svg);
   background-repeat: no-repeat;
@@ -52,6 +54,7 @@ html {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -82,6 +85,7 @@ span {
   font-family: Neutral face;
   font-weight: lighter;
 }
+
 .button-menu {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
@@ -221,6 +225,7 @@ p {
   display: flex;
   justify-content: center;
 }
+
 .me {
   background-size: contain;
   background-position: center;
@@ -236,6 +241,7 @@ p {
   animation-duration: 2s;
   height: 100vh;
 }
+
 #title-work {
   display: flex;
   justify-content: center;
@@ -347,21 +353,25 @@ h4 {
 .show {
   left: 0% !important;
 }
-.recommendation{
+
+.recommendation {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif !important;
   width: 100%;
-  
+
 }
+
 .recommendation:hover {
   /* fix underline padding jumping issue */
   border-bottom: black 2px solid;
   padding-bottom: 0px;
 }
+
 a.link-recommendation {
   text-decoration: none;
   color: black;
 }
+
 /*
 #########################################
 # RESPONSIVE STYLING
@@ -370,13 +380,16 @@ a.link-recommendation {
 
 /* ### LAPTOP/TABLET ### */
 @media screen and (max-width: 1100px) {
+
   /* ### GENERAL ### */
   h1 {
     font-size: 100px;
   }
+
   h3 {
     font-size: 20px;
   }
+
   .arrow img {
     transform: scale(0.8);
     margin: 0px 21px;
@@ -408,18 +421,22 @@ a.link-recommendation {
 
 /* ### TABLET ### */
 @media screen and (max-width: 768px) {
+
   /* ### GENERAL ### */
   h1 {
     font-size: 70px;
   }
+
   h2,
   .button-home {
     display: none;
     text-align: left;
   }
+
   h3 {
     font-size: 20px;
   }
+
   .arrow img {
     margin: 0px 11px;
   }
@@ -436,16 +453,19 @@ a.link-recommendation {
     height: 100vh;
     background-color: #fff;
   }
+
   #menu {
     flex-direction: column;
     align-items: start;
     padding: 0;
     margin: 25px;
   }
+
   .header-position {
     top: 0px;
     left: -100%;
   }
+
   #menu li {
     margin-bottom: 20px;
     padding: 0;
@@ -469,10 +489,12 @@ a.link-recommendation {
   #title-about {
     align-items: center;
   }
+
   #title-about .hello-about,
   #title-about .hello-about .laura {
     font-size: 36px;
   }
+
   #title-about p,
   #title-about .hello-about {
     width: 95%;
@@ -500,10 +522,12 @@ a.link-recommendation {
 
 /* ### MOBILE ### */
 @media screen and (max-width: 420px) {
+
   /* ### GENERAL ### */
   h1 {
     font-size: 50px;
   }
+
   h3 {
     font-size: 20px;
   }
@@ -527,5 +551,5 @@ a.link-recommendation {
   .my-work {
     font-size: 24px;
   }
-  
+
 }
